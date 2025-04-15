@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ත්‍රිපිටකය - පිවිසුම්</title>
+  <style>
+    body {
+      font-family: 'Noto Sans Sinhala', sans-serif;
+      background-color: #fdf6e3;
+      color: #333;
+      margin: 0;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      color: #6d4c41;
+    }
+    .tripitaka-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .tripitaka-card {
+      background-color: #fff;
+      border: 2px solid #d7ccc8;
+      border-radius: 8px;
+      padding: 1.5rem;
+      width: 280px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .tripitaka-card:hover {
+      transform: scale(1.05);
+    }
+    .tripitaka-card h2 {
+      color: #4e342e;
+      margin-bottom: 1rem;
+    }
+    .tripitaka-card p {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .tripitaka-card a {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background-color: #8d6e63;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+    .tripitaka-card a:hover {
+      background-color: #6d4c41;
+    }
+    @media (max-width: 768px) {
+      .tripitaka-section {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>📚 ත්‍රිපිටකය - පිවිසුම්</h1>
+  <div class="tripitaka-section">
+    <div class="tripitaka-card">
+      <h2>🧘 විනය පිටකය</h2>
+      <p>සංඝ විනය නීති සහ භික්ෂුන් වහන්සේලාගේ ආචාරධර්ම.</p>
+      <a href="./vinaya/index.html">පිවිසෙන්න</a>
+    </div>
+    <div class="tripitaka-card">
+      <h2>📖 සූත්‍ර පිටකය</h2>
+      <p>බුදුන් වහන්සේගේ දේශනා සහ ධර්ම උපදෙස්.</p>
+      <a href="./sutta/index.html">පිවිසෙන්න</a>
+    </div>
+    <div class="tripitaka-card">
+      <h2>🧠 අභිධර්ම පිටකය</h2>
+      <p>ධර්මය පිළිබඳ ගැඹුරු විග්‍රහ සහ විශ්ලේෂණ.</p>
+      <a href="./abhidhamma/index.html">පිවිසෙන්න</a>
+    </div>
+  </div>
+</body>
+</html>
